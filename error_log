@@ -1,0 +1,1 @@
+[18-Nov-2016 14:12:52 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/chilipino30/public_html/comment_panel.php on line 28

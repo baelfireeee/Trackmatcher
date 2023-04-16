@@ -1,0 +1,10 @@
+SQL STATEMENTS
+
+Adding Strands:
+INSERT INTO `strand` (`strand_id`, `strand_code`, `strand_name`, `track_id`, `admin_id`) VALUES (NULL, 'RIASEC', 'STEM (Science, Technology, Engineering, and Mathematics)', '0001', '03'), (NULL, 'C', 'HUMSS (Humanities and Social Sciences)', '0001', '03');
+
+Updating Strands:
+UPDATE `strand` SET `strand_code` = 'RIASEC', `strand_name` = 'STEM (Science, Technology, Engineering, and Mathematics)', `track_id` = '0001', `admin_id` = '03' WHERE `strand`.`strand_id` = 0001;
+
+Selecting Strands:
+SELECT * FROM `strand` WHERE `strand_code` IN ('Riasec', 'ceis')ORDER BY `strand_code` DESC
